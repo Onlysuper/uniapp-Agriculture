@@ -56,7 +56,7 @@ export default {
 	font-size: 42px;
 }
 .content {
-	background-color: #f06c7a;
+	background-color: #70b162;
 	flex-direction: column;
 }
 .status-bar {

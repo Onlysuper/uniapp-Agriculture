@@ -448,7 +448,7 @@ export default {
 .left-block-on {
 	
 	
-	background-color: #f06c7a;
+	background-color: #70b162;
 }
 
 

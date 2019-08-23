@@ -221,9 +221,9 @@ export default {
 			// #endif
 			//轮播主图数据
 			swiperList: [
-				{ id: 1, img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566553418307&di=1c689ace1b20b8b1a45d276030e403f3&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201809%2F05%2F20180905195832_bvhhf.jpg' },
-				{ id: 2, img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566553418307&di=f5182e87e264a67814e81fe944760b27&imgtype=0&src=http%3A%2F%2Fimg.alicdn.com%2Fimgextra%2Fi4%2F2188894781%2FTB2dGJjag6DK1JjSZJiXXalIVXa_%2521%25212188894781-0-daren.jpg' },
-				{ id: 3, img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566553447512&di=9fbfa8f814c13719388a1b854fcddc6d&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D3801589976%2C1942504570%26fm%3D214%26gp%3D0.jpg' },
+				{ id: 1, img: '/static/img/goods/1.png' },
+				{ id: 2, img: '/static/img/goods/2.png' },
+				{ id: 3, img: '/static/img/goods/3.png' },
 			],
 			//轮播图下标
 			currentSwiper: 0,
@@ -254,7 +254,7 @@ export default {
 			selectSpec:null,//选中规格
 			isKeep:false,//收藏
 			//商品描述html
-			descriptionStr:'<div style="text-align:center;"><img width="100%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566553447512&di=9fbfa8f814c13719388a1b854fcddc6d&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D3801589976%2C1942504570%26fm%3D214%26gp%3D0.jpg"/><img width="100%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566553418307&di=f5182e87e264a67814e81fe944760b27&imgtype=0&src=http%3A%2F%2Fimg.alicdn.com%2Fimgextra%2Fi4%2F2188894781%2FTB2dGJjag6DK1JjSZJiXXalIVXa_%2521%25212188894781-0-daren.jpg"/></div>'
+			descriptionStr:'<div style="text-align:center;"><img width="100%" src="/static/img/goods/1.png"/><img width="100%" src="/static/img/goods/2.png"/></div>'
 		};
 	},
 	onLoad(option) {
@@ -345,7 +345,7 @@ export default {
 		//跳转确认订单页面
 		toConfirmation(){
 			let tmpList=[];
-			let goods = {id:this.goodsData.id,img:'../../static/img/goods/p1.jpg',name:this.goodsData.name,spec:'规格:'+this.goodsData.spec[this.selectSpec],price:this.goodsData.price,number:this.goodsData.number};
+			let goods = {id:this.goodsData.id,img:'../../static/img/goods/1.png',name:this.goodsData.name,spec:'规格:'+this.goodsData.spec[this.selectSpec],price:this.goodsData.price,number:this.goodsData.number};
 			tmpList.push(goods);
 			uni.setStorage({
 				key:'buylist',

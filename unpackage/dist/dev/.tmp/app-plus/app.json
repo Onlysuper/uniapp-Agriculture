@@ -32,7 +32,7 @@
   },
   "tabBar": {
     "color": "#333333",
-    "selectedColor": "#f06c7a",
+    "selectedColor": "#70b162",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
@@ -41,12 +41,6 @@
         "iconPath": "static/img/tabBar/home.png",
         "selectedIconPath": "static/img/tabBar/home-on.png",
         "text": "首页"
-      },
-      {
-        "pagePath": "pages/tabBar/category/category",
-        "iconPath": "static/img/tabBar/category.png",
-        "selectedIconPath": "static/img/tabBar/category-on.png",
-        "text": "分类"
       },
       {
         "pagePath": "pages/tabBar/cart/cart",
@@ -78,14 +72,6 @@
           "usingComponents": {},
           "navigationBarTitleText": "",
           "enablePullDownRefresh": true,
-          "bounce": "none"
-        }
-      },
-      "pages/tabBar/category/category.html": {
-        "window": {
-          "usingComponents": {},
-          "navigationBarTextStyle": "black",
-          "titleNView": false,
           "bounce": "none"
         }
       }

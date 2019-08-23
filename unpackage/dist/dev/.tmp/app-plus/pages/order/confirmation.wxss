@@ -24,6 +24,102 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+.space-split {
+  height: 20rpx;
+  width: 100%;
+}
+.split-border-attr, .split-border-sm, .split-border-base, .split-border-lg {
+  background: #f9f9f9;
+  width: 100%;
+}
+.light-text {
+  color: #808080;
+}
+.split-bottom-border1 {
+  border-bottom: 1px solid #f9f9f9;
+}
+.split-border-sm {
+  height: 10rpx;
+}
+.split-border-base {
+  height: 15rpx;
+}
+.split-border-lg {
+  height: 20rpx;
+}
+.footer-place {
+  height: 99rpx;
+}
+.top-space {
+  height: 30rpx;
+}
+.header-place {
+  height: 100rpx;
+  width: 100%;
+}
+.full-button {
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 32rpx;
+  text-align: center;
+  color: #fff;
+  background: #70b162;
+  -webkit-border-radius: 5rpx;
+          border-radius: 5rpx;
+}
+.m-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 16rpx 10px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.m-header .m-label {
+    font-size: 32rpx;
+    color: #333;
+}
+.m-header .m-detail {
+    font-size: 28rpx;
+    color: #333;
+}
+.page-footer {
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  height: 99rpx;
+  border-top: solid 1rpx #eee;
+  background-color: #fff;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 .addr {
   width: 86%;
   padding: 20rpx 3%;
@@ -60,6 +156,7 @@
     display: -ms-flexbox;
     display: flex;
     font-size: 32rpx;
+    color: #333;
 }
 .addr .tel-name .tel {
       margin-left: 40rpx;
@@ -67,7 +164,7 @@
 .addr .addres {
     width: 100%;
     font-size: 26rpx;
-    color: #999;
+    color: #808080;
 }
 .buy-list {
   width: 86%;
@@ -123,11 +220,12 @@
           -webkit-box-orient: vertical;
           -webkit-line-clamp: 2;
           overflow: hidden;
+          color: #333;
 }
 .buy-list .row .goods-info .info .spec {
-          font-size: 22rpx;
+          font-size: 24rpx;
           background-color: #f3f3f3;
-          color: #a7a7a7;
+          color: #808080;
           height: 40rpx;
           display: -webkit-box;
           display: -webkit-flex;
@@ -162,7 +260,7 @@
           height: 40rpx;
 }
 .buy-list .row .goods-info .info .price-number .price {
-            color: #f06c7a;
+            color: #dd524d;
 }
 .buy-list .row .goods-info .info .price-number .number {
             display: -webkit-box;
@@ -186,6 +284,7 @@
           box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
   -webkit-border-radius: 20rpx;
           border-radius: 20rpx;
+  color: #333;
 }
 .order .row {
     margin: 20rpx 0;
@@ -201,11 +300,11 @@
 .order .row .right {
       margin-left: 40rpx;
       font-size: 26rpx;
-      color: #999;
+      color: #808080;
 }
 .order .row .right input {
         font-size: 26rpx;
-        color: #999;
+        color: #808080;
 }
 .blck {
   width: 100%;
@@ -267,7 +366,7 @@
 .footer .settlement .btn {
       padding: 0 30rpx;
       height: 60rpx;
-      background-color: #f06c7a;
+      background-color: #70b162;
       color: #fff;
       display: -webkit-box;
       display: -webkit-flex;
@@ -293,6 +392,7 @@
           box-shadow: 0rpx 5rpx 20rpx rgba(0, 0, 0, 0.1);
   -webkit-border-radius: 20rpx;
           border-radius: 20rpx;
+  color: #333;
 }
 .detail .row {
     height: 60rpx;
@@ -311,9 +411,10 @@
 }
 .detail .row .nominal {
       font-size: 28rpx;
+      color: #333;
 }
 .detail .row .content {
       font-size: 26rpx;
-      color: #f06c7a;
+      color: #dd524d;
 }
 

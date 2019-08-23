@@ -39,7 +39,7 @@
 					设置默认地址
 				</view>
 				<view class="input switch">
-					<switch color="#f06c7a" :checked="isDefault" @change=isDefaultChange />
+					<switch color="#70b162" :checked="isDefault" @change=isDefaultChange />
 				</view>
 			</view>
 			<view class="row" v-if="editType=='edit'" @tap="del">
@@ -200,7 +200,7 @@
 			width: 70%;
 			height: 80upx;
 			border-radius: 80upx;
-			background-color: #f06c7a;
+			background-color: #70b162;
 			color: #fff;
 			justify-content: center;
 			align-items: center;

@@ -24,6 +24,102 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+.space-split {
+  height: 20rpx;
+  width: 100%;
+}
+.split-border-attr, .split-border-sm, .split-border-base, .split-border-lg {
+  background: #f9f9f9;
+  width: 100%;
+}
+.light-text {
+  color: #808080;
+}
+.split-bottom-border1 {
+  border-bottom: 1px solid #f9f9f9;
+}
+.split-border-sm {
+  height: 10rpx;
+}
+.split-border-base {
+  height: 15rpx;
+}
+.split-border-lg {
+  height: 20rpx;
+}
+.footer-place {
+  height: 99rpx;
+}
+.top-space {
+  height: 30rpx;
+}
+.header-place {
+  height: 100rpx;
+  width: 100%;
+}
+.full-button {
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 32rpx;
+  text-align: center;
+  color: #fff;
+  background: #70b162;
+  -webkit-border-radius: 5rpx;
+          border-radius: 5rpx;
+}
+.m-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 16rpx 10px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.m-header .m-label {
+    font-size: 32rpx;
+    color: #333;
+}
+.m-header .m-detail {
+    font-size: 28rpx;
+    color: #333;
+}
+.page-footer {
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  height: 99rpx;
+  border-top: solid 1rpx #eee;
+  background-color: #fff;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 view {
   display: -webkit-box;
   display: -webkit-flex;
@@ -51,7 +147,7 @@ view {
     height: 80rpx;
     -webkit-border-radius: 80rpx;
             border-radius: 80rpx;
-    background-color: #f06c7a;
+    background-color: #70b162;
     color: #fff;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -138,7 +234,7 @@ view {
 }
 .list .row .center .name-tel .default {
           font-size: 22rpx;
-          background-color: #f06c7a;
+          background-color: #70b162;
           color: #fff;
           padding: 0 18rpx;
           -webkit-border-radius: 24rpx;

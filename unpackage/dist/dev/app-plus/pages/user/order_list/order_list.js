@@ -83,15 +83,15 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../../Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue?entry");
+/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../../Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue?entry");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "../../../../../../Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue?entry":
-/*!****************************************************************************************!*\
-  !*** /Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue?entry ***!
-  \****************************************************************************************/
+/***/ "../../../../../../Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue?entry":
+/*!**********************************************************************************************!*\
+  !*** /Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue?entry ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -99,14 +99,14 @@ var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(/*! !../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/style-loader!../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/style-rewriter?id=data-v-880cc9c2!../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/selector?type=styles&index=0!./order_list.nvue */ "./node_modules/weex-vue-loader/lib/style-loader.js!./node_modules/weex-vue-loader/lib/style-rewriter.js?id=data-v-880cc9c2!./node_modules/weex-vue-loader/lib/selector.js?type=styles&index=0!../../../../../../Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue")
+__vue_styles__.push(__webpack_require__(/*! !../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/style-loader!../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/style-rewriter?id=data-v-299518bd!../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/selector?type=styles&index=0!./order_list.nvue */ "./node_modules/weex-vue-loader/lib/style-loader.js!./node_modules/weex-vue-loader/lib/style-rewriter.js?id=data-v-299518bd!./node_modules/weex-vue-loader/lib/selector.js?type=styles&index=0!../../../../../../Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue")
 )
 
 /* script */
-__vue_exports__ = __webpack_require__(/*! !../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/script-loader!babel-loader!../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/selector?type=script&index=0!./order_list.nvue */ "./node_modules/weex-vue-loader/lib/script-loader.js!./node_modules/babel-loader/lib/index.js!./node_modules/weex-vue-loader/lib/selector.js?type=script&index=0!../../../../../../Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue")
+__vue_exports__ = __webpack_require__(/*! !../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/script-loader!babel-loader!../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/selector?type=script&index=0!./order_list.nvue */ "./node_modules/weex-vue-loader/lib/script-loader.js!./node_modules/babel-loader/lib/index.js!./node_modules/weex-vue-loader/lib/selector.js?type=script&index=0!../../../../../../Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue")
 
 /* template */
-var __vue_template__ = __webpack_require__(/*! !../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/template-compiler?id=data-v-880cc9c2!../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/selector?type=template&index=0!./order_list.nvue */ "./node_modules/weex-vue-loader/lib/template-compiler.js?id=data-v-880cc9c2!./node_modules/weex-vue-loader/lib/selector.js?type=template&index=0!../../../../../../Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue")
+var __vue_template__ = __webpack_require__(/*! !../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/template-compiler?id=data-v-299518bd!../../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/weex-vue-loader/lib/selector?type=template&index=0!./order_list.nvue */ "./node_modules/weex-vue-loader/lib/template-compiler.js?id=data-v-299518bd!./node_modules/weex-vue-loader/lib/selector.js?type=template&index=0!../../../../../../Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue")
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -118,10 +118,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue"
+__vue_options__.__file = "/Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-880cc9c2"
+__vue_options__._scopeId = "data-v-299518bd"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -932,10 +932,10 @@ var weexPlus = new WeexPlus(weex);
 
 /***/ }),
 
-/***/ "./node_modules/weex-vue-loader/lib/script-loader.js!./node_modules/babel-loader/lib/index.js!./node_modules/weex-vue-loader/lib/selector.js?type=script&index=0!../../../../../../Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue":
-/*!*****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/weex-vue-loader/lib/script-loader.js!./node_modules/babel-loader/lib!./node_modules/weex-vue-loader/lib/selector.js?type=script&index=0!/Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue ***!
-  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/weex-vue-loader/lib/script-loader.js!./node_modules/babel-loader/lib/index.js!./node_modules/weex-vue-loader/lib/selector.js?type=script&index=0!../../../../../../Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue":
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/weex-vue-loader/lib/script-loader.js!./node_modules/babel-loader/lib!./node_modules/weex-vue-loader/lib/selector.js?type=script&index=0!/Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1273,10 +1273,10 @@ var _default =
 
 /***/ }),
 
-/***/ "./node_modules/weex-vue-loader/lib/style-loader.js!./node_modules/weex-vue-loader/lib/style-rewriter.js?id=data-v-880cc9c2!./node_modules/weex-vue-loader/lib/selector.js?type=styles&index=0!../../../../../../Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue":
-/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/weex-vue-loader/lib/style-loader.js!./node_modules/weex-vue-loader/lib/style-rewriter.js?id=data-v-880cc9c2!./node_modules/weex-vue-loader/lib/selector.js?type=styles&index=0!/Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/weex-vue-loader/lib/style-loader.js!./node_modules/weex-vue-loader/lib/style-rewriter.js?id=data-v-299518bd!./node_modules/weex-vue-loader/lib/selector.js?type=styles&index=0!../../../../../../Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/weex-vue-loader/lib/style-loader.js!./node_modules/weex-vue-loader/lib/style-rewriter.js?id=data-v-299518bd!./node_modules/weex-vue-loader/lib/selector.js?type=styles&index=0!/Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1303,9 +1303,6 @@ module.exports = {
     "fontSize": "26",
     "color": "#444444"
   },
-  "tab-text-on": {
-    "color": "#f06c7a"
-  },
   "border": {
     "width": "75",
     "marginTop": 0,
@@ -1313,7 +1310,6 @@ module.exports = {
     "marginBottom": 0,
     "marginLeft": "25",
     "height": "4",
-    "backgroundColor": "#f06c7a",
     "transitionProperty": "transform",
     "transitionDuration": 300,
     "transitionDelay": 0,
@@ -1504,10 +1500,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/weex-vue-loader/lib/template-compiler.js?id=data-v-880cc9c2!./node_modules/weex-vue-loader/lib/selector.js?type=template&index=0!../../../../../../Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue":
-/*!**********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/weex-vue-loader/lib/template-compiler.js?id=data-v-880cc9c2!./node_modules/weex-vue-loader/lib/selector.js?type=template&index=0!/Users/apple/Downloads/HM-mall_1.2.0/pages/user/order_list/order_list.nvue ***!
-  \**********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/weex-vue-loader/lib/template-compiler.js?id=data-v-299518bd!./node_modules/weex-vue-loader/lib/selector.js?type=template&index=0!../../../../../../Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/weex-vue-loader/lib/template-compiler.js?id=data-v-299518bd!./node_modules/weex-vue-loader/lib/selector.js?type=template&index=0!/Users/apple/WORK_SPACE/APPS/HM-mall_1.2.0/pages/user/order_list/order_list.nvue ***!
+  \****************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

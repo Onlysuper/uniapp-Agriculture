@@ -4,5 +4,7 @@
   "onReachBottomDistance": 50,
   "titleNView": false,
   "bounce": "none",
-  "usingComponents": {}
+  "usingComponents": {
+    "acell": "/components/ACell/ACell"
+  }
 }

@@ -79,11 +79,10 @@
 				selectedList:[],
 				isAllselected:false,
 				goodsList:[
-					{id:1,img:'/static/img/goods/p1.jpg',name:'商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题',spec:'规格:S码',price:127.5,number:1,selected:false},
-					{id:2,img:'/static/img/goods/p2.jpg',name:'商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题',spec:'规格:S码',price:127.5,number:1,selected:false},
-					{id:3,img:'/static/img/goods/p3.jpg',name:'商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题',spec:'规格:S码',price:127.5,number:1,selected:false},
-					{id:4,img:'/static/img/goods/p4.jpg',name:'商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题',spec:'规格:S码',price:127.5,number:1,selected:false},
-					{id:5,img:'/static/img/goods/p5.jpg',name:'商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题',spec:'规格:S码',price:127.5,number:1,selected:false}
+					{id:1,img:'/static/img/goods/1.png',name:'草莓',spec:'规格:S码',price:127.5,number:1,selected:false},
+					{id:2,img:'/static/img/goods/2.png',name:'草莓',spec:'规格:S码',price:127.5,number:1,selected:false},
+					{id:3,img:'/static/img/goods/3.png',name:'草莓',spec:'规格:S码',price:127.5,number:1,selected:false},
+					{id:4,img:'/static/img/goods/4.png',name:'草莓',spec:'规格:S码',price:127.5,number:1,selected:false},
 				],
 				//控制滑动效果
 				theIndex:null,
