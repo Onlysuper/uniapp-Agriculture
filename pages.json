@@ -49,8 +49,8 @@
 			"style": {
 				"enablePullDownRefresh": true,
 				"backgroundTextStyle":"light",
-				"navigationBarBackgroundColor":"green",
-				"backgroundColorTop":"green",
+				"navigationBarBackgroundColor":"#70b162",
+				"backgroundColorTop":"#70b162",
 				"navigationBarTextStyle":"white",
 				"app-plus": {
 					"titleNView": false ,//禁用原生导航栏
@@ -91,7 +91,7 @@
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "登录",
-				"navigationBarBackgroundColor":"green",
+				"navigationBarBackgroundColor":"#70b162",
 				"navigationBarTextStyle":"white",
 				"app-plus": {
 		            "bounce": "none" ,//关闭窗口回弹效果
@@ -103,7 +103,7 @@
 			"path": "pages/login/register",
 			"style": {
 				"navigationBarTitleText": "注册账号",
-				"navigationBarBackgroundColor":"green",
+				"navigationBarBackgroundColor":"#70b162",
 				"navigationBarTextStyle":"white",
 				"app-plus": {
 				    "bounce": "none" ,//关闭窗口回弹效果
@@ -115,7 +115,7 @@
 			"path": "pages/login/resetpasswd",
 			"style": {
 				"navigationBarTitleText": "重置密码",
-				"navigationBarBackgroundColor":"green",
+				"navigationBarBackgroundColor":"#70b162",
 				"navigationBarTextStyle":"white",
 				"app-plus": {
 				    "bounce": "none" ,//关闭窗口回弹效果
@@ -162,7 +162,7 @@
             "style" : {
 				"enablePullDownRefresh": true,
 				"navigationBarTitleText": "消息列表",
-				"navigationBarBackgroundColor":"green",
+				"navigationBarBackgroundColor":"#70b162",
 				"navigationBarTextStyle":"white"
 			}
         }
@@ -182,7 +182,7 @@
             "path" : "pages/user/coupon/coupon",
             "style" : {
 				"navigationBarTitleText": "优惠券",
-				"navigationBarBackgroundColor":"green",
+				"navigationBarBackgroundColor":"#70b162",
 				"navigationBarTextStyle":"white",
 				"app-plus":{
 					"bounce":"none"
@@ -193,7 +193,7 @@
             "path" : "pages/user/keep/keep",
             "style" : {
 				"navigationBarTitleText": "我的收藏",
-				"navigationBarBackgroundColor":"green",
+				"navigationBarBackgroundColor":"#70b162",
 				"navigationBarTextStyle":"white",
 				"app-plus":{
 					"bounce":"none"
@@ -266,7 +266,7 @@
 	},
 	"tabBar": {
 		"color": "#333333",
-		"selectedColor": "green",
+		"selectedColor": "#70b162",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{

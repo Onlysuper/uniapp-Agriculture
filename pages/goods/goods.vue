@@ -140,7 +140,7 @@
 			</view>
 		</view>
 		<!-- 服务-规则选择 -->
-		<view class="info-box spec">
+		<!-- <view class="info-box spec">
 			<view class="row" @tap="showService">
 				<view class="text">服务</view>
 				<view class="content"><view class="serviceitem" v-for="(item,index) in goodsData.service" :key="index">{{item.name}}</view></view>
@@ -157,7 +157,22 @@
 				</view>
 				<view class="arrow"><view class="icon xiangyou"></view></view>
 			</view>
-		</view>
+		</view> -->
+		<!-- 标题 价格 -->
+		<!-- <view class="info-box goods-info">
+			<view class="title">
+				{{goodsData.synopsis}}
+			</view>
+			<view class="tip-box">
+				<view class="item">
+					{{goodsData.labelName}}
+				</view>
+			</view>
+		</view> -->
+		<Acell class="split-bottom-border1" title="规格" describe="100g"></Acell>
+		<Acell class="split-bottom-border1" title="运费" describe="全场满100免运费"></Acell>
+		<!-- <Acell class="split-bottom-border1" title="参数" :link='true'></Acell> -->
+		<Acell class="split-bottom-border1" title="参数" describe="盒子包装"></Acell>
 		<!-- 评价 -->
 		<view class="info-box comments" id="comments">
 			<view class="row">
@@ -188,7 +203,11 @@
 </template>
 
 <script>
+import Acell from "@/components/ACell/ACell.vue"
 export default {
+	components:{
+		Acell
+	},
 	data() {
 		return {
 			//控制渐变标题栏的参数
@@ -202,10 +221,9 @@ export default {
 			// #endif
 			//轮播主图数据
 			swiperList: [
-				{ id: 1, img: 'https://ae01.alicdn.com/kf/HTB1Mj7iTmzqK1RjSZFjq6zlCFXaP.jpg' },
-				{ id: 2, img: 'https://ae01.alicdn.com/kf/HTB1fbseTmzqK1RjSZFLq6An2XXaL.jpg' },
-				{ id: 3, img: 'https://ae01.alicdn.com/kf/HTB1dPUMThnaK1RjSZFtq6zC2VXa0.jpg' },
-				{ id: 4, img: 'https://ae01.alicdn.com/kf/HTB1OHZrTXzqK1RjSZFvq6AB7VXaw.jpg' }
+				{ id: 1, img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566553418307&di=1c689ace1b20b8b1a45d276030e403f3&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201809%2F05%2F20180905195832_bvhhf.jpg' },
+				{ id: 2, img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566553418307&di=f5182e87e264a67814e81fe944760b27&imgtype=0&src=http%3A%2F%2Fimg.alicdn.com%2Fimgextra%2Fi4%2F2188894781%2FTB2dGJjag6DK1JjSZJiXXalIVXa_%2521%25212188894781-0-daren.jpg' },
+				{ id: 3, img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566553447512&di=9fbfa8f814c13719388a1b854fcddc6d&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D3801589976%2C1942504570%26fm%3D214%26gp%3D0.jpg' },
 			],
 			//轮播图下标
 			currentSwiper: 0,
@@ -217,7 +235,7 @@ export default {
 			// 商品信息
 			goodsData:{
 				id:1,
-				name:"商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题商品标题",
+				name:"新鲜进口草莓",
 				price:"127.00",
 				number:1,
 				service:[
@@ -236,7 +254,7 @@ export default {
 			selectSpec:null,//选中规格
 			isKeep:false,//收藏
 			//商品描述html
-			descriptionStr:'<div style="text-align:center;"><img width="100%" src="https://ae01.alicdn.com/kf/HTB1t0fUl_Zmx1VjSZFGq6yx2XXa5.jpg"/><img width="100%" src="https://ae01.alicdn.com/kf/HTB1LzkjThTpK1RjSZFKq6y2wXXaT.jpg"/><img width="100%" src="https://ae01.alicdn.com/kf/HTB18dkiTbvpK1RjSZPiq6zmwXXa8.jpg"/></div>'
+			descriptionStr:'<div style="text-align:center;"><img width="100%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566553447512&di=9fbfa8f814c13719388a1b854fcddc6d&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D3801589976%2C1942504570%26fm%3D214%26gp%3D0.jpg"/><img width="100%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566553418307&di=f5182e87e264a67814e81fe944760b27&imgtype=0&src=http%3A%2F%2Fimg.alicdn.com%2Fimgextra%2Fi4%2F2188894781%2FTB2dGJjag6DK1JjSZJiXXalIVXa_%2521%25212188894781-0-daren.jpg"/></div>'
 		};
 	},
 	onLoad(option) {
@@ -630,7 +648,7 @@ page {
 	.price {
 		font-size: 46upx;
 		font-weight: 600;
-		color: #f47925;
+		color: $uni-color-error; 
 	}
 	.title {
 		font-size: 30upx;

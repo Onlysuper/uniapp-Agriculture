@@ -151,73 +151,31 @@ export default {
 			productList: [
 				{
 					goods_id: 0,
-					img: '/static/img/goods/p1.jpg',
-					name: '商品名称商品名称商品名称商品名称商品名称',
-					price: '￥168',
+					img: '/static/img/goods/1.png',
+					name: '新鲜进口草莓',
+					price: '￥28.10',
 					slogan: '1235人付款'
 				},
 				{
 					goods_id: 1,
-					img: '/static/img/goods/p2.jpg',
-					name: '商品名称商品名称商品名称商品名称商品名称',
-					price: '￥168',
-					slogan: '1235人付款'
+					img: '/static/img/goods/2.png',
+					name: '水果胡萝卜',
+					price: '￥8.9',
+					slogan: '12人付款'
 				},
 				{
 					goods_id: 2,
-					img: '/static/img/goods/p3.jpg',
-					name: '商品名称商品名称商品名称商品名称商品名称',
-					price: '￥168',
-					slogan: '1235人付款'
+					img: '/static/img/goods/3.png',
+					name: '家常土豆',
+					price: '￥5.30',
+					slogan: '35人付款'
 				},
 				{
 					goods_id: 3,
-					img: '/static/img/goods/p4.jpg',
-					name: '商品名称商品名称商品名称商品名称商品名称',
-					price: '￥168',
-					slogan: '1235人付款'
-				},
-				{
-					goods_id: 4,
-					img: '/static/img/goods/p5.jpg',
-					name: '商品名称商品名称商品名称商品名称商品名称',
-					price: '￥168',
-					slogan: '1235人付款'
-				},
-				{
-					goods_id: 5,
-					img: '/static/img/goods/p6.jpg',
-					name: '商品名称商品名称商品名称商品名称商品名称',
-					price: '￥168',
-					slogan: '1235人付款'
-				},
-				{
-					goods_id: 6,
-					img: '/static/img/goods/p7.jpg',
-					name: '商品名称商品名称商品名称商品名称商品名称',
-					price: '￥168',
-					slogan: '1235人付款'
-				},
-				{
-					goods_id: 7,
-					img: '/static/img/goods/p8.jpg',
-					name: '商品名称商品名称商品名称商品名称商品名称',
-					price: '￥168',
-					slogan: '1235人付款'
-				},
-				{
-					goods_id: 8,
-					img: '/static/img/goods/p9.jpg',
-					name: '商品名称商品名称商品名称商品名称商品名称',
-					price: '￥168',
-					slogan: '1235人付款'
-				},
-				{
-					goods_id: 9,
-					img: '/static/img/goods/p10.jpg',
-					name: '商品名称商品名称商品名称商品名称商品名称',
-					price: '￥168',
-					slogan: '1235人付款'
+					img: '/static/img/goods/4.png',
+					name: '紫薯',
+					price: '￥24',
+					slogan: '5人付款'
 				}
 			],
 			loadingText: '正在加载...'
@@ -239,24 +197,24 @@ export default {
 	onReachBottom() {
 		uni.showToast({ title: '触发上拉加载' });
 		let len = this.productList.length;
-		if (len >= 40) {
+		if (len >= 4) {
 			this.loadingText = '到底了';
 			return false;
 		}
 		// 演示,随机加入商品,生成环境请替换为ajax请求
-		let end_goods_id = this.productList[len - 1].goods_id;
-		for (let i = 1; i <= 10; i++) {
-			let goods_id = end_goods_id + i;
-			let p = {
-				goods_id: goods_id,
-				img:
-					'/static/img/goods/p' + (goods_id % 10 == 0 ? 10 : goods_id % 10) + '.jpg',
-				name: '商品名称商品名称商品名称商品名称商品名称',
-				price: '￥168',
-				slogan: '1235人付款'
-			};
-			this.productList.push(p);
-		}
+		// let end_goods_id = this.productList[len - 1].goods_id;
+		// for (let i = 1; i <= 4; i++) {
+		// 	let goods_id = end_goods_id + i;
+		// 	let p = {
+		// 		goods_id: goods_id,
+		// 		img:
+		// 			'/static/img/goods/' + (goods_id % 10 == 0 ? 10 : goods_id % 10) + '.png',
+		// 		name: '商品名称商品名称商品名称商品名称商品名称',
+		// 		price: '￥168',
+		// 		slogan: '1235人付款'
+		// 	};
+		// 	this.productList.push(p);
+		// }
 	},
 	onLoad() {
 		
@@ -304,13 +262,13 @@ export default {
 				{
 					title: '整点秒杀',
 					ad: '整天秒杀专区',
-					img: '/static/img/s1.jpg',
+					img: '/static/img/s1.png',
 					countdown: false
 				},
 				{
 					title: '限时抢购',
 					ad: '每天23点上线',
-					img: '/static/img/s2.jpg',
+					img: '/static/img/s2.png',
 					countdown: tmpcountdown
 				} //countdown为目标时间，程序会获取当前时间倒数
 			];
@@ -643,7 +601,7 @@ page{position: relative;background-color: #fff;}
 		.column {
 			width: 43%;
 			padding: 15upx 3%;
-			background-color: #ebf9f9;
+			// background-color: #ebf9f9;
 			border-radius: 10upx;
 			overflow: hidden;
 			display: flex;

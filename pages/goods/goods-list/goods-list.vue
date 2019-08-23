@@ -30,16 +30,16 @@
 		data() {
 			return {
 				goodsList:[
-					{ goods_id: 0, img: '/static/img/goods/p1.jpg', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
-					{ goods_id: 1, img: '/static/img/goods/p2.jpg', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
-					{ goods_id: 2, img: '/static/img/goods/p3.jpg', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
-					{ goods_id: 3, img: '/static/img/goods/p4.jpg', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
-					{ goods_id: 4, img: '/static/img/goods/p5.jpg', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
-					{ goods_id: 5, img: '/static/img/goods/p6.jpg', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
-					{ goods_id: 6, img: '/static/img/goods/p7.jpg', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
-					{ goods_id: 7, img: '/static/img/goods/p8.jpg', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
-					{ goods_id: 8, img: '/static/img/goods/p9.jpg', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
-					{ goods_id: 9, img: '/static/img/goods/p10.jpg', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' }
+					{ goods_id: 0, img: '/static/img/goods/1.png', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
+					{ goods_id: 1, img: '/static/img/goods/2.png', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
+					{ goods_id: 2, img: '/static/img/goods/3.png', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
+					{ goods_id: 3, img: '/static/img/goods/4.png', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
+					{ goods_id: 4, img: '/static/img/goods/1.png', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
+					{ goods_id: 5, img: '/static/img/goods/2.png', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
+					{ goods_id: 6, img: '/static/img/goods/3.png', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
+					{ goods_id: 7, img: '/static/img/goods/4.png', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
+					{ goods_id: 8, img: '/static/img/goods/1.png', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' },
+					{ goods_id: 9, img: '/static/img/goods/2.png', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' }
 				],
 				loadingText:"正在加载...",
 				headerTop:"0px",
@@ -87,9 +87,10 @@
 		},
 		//上拉加载，需要自己在page.json文件中配置"onReachBottomDistance"
 		onReachBottom(){
+			
 			uni.showToast({title: '触发上拉加载'});
 			let len = this.goodsList.length;
-			if(len>=40){
+			if(len>=10){
 				this.loadingText="到底了";
 				return false;
 			}else{
@@ -98,7 +99,7 @@
 			let end_goods_id = this.goodsList[len-1].goods_id;
 			for(let i=1;i<=10;i++){
 				let goods_id = end_goods_id+i;
-				let p = { goods_id: goods_id, img: '/static/img/goods/p'+(goods_id%10==0?10:goods_id%10)+'.jpg', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' };
+				let p = { goods_id: goods_id, img: '/static/img/goods/'+(goods_id%10==0?10:goods_id%10)+'.png', name: '草莓', price: '￥168', slogan:'1235人付款' };
 				this.goodsList.push(p);
 			}
 		},
@@ -110,7 +111,7 @@
 				let end_goods_id = 0;
 				for(let i=1;i<=10;i++){
 					let goods_id = end_goods_id+i;
-					let p = { goods_id: goods_id, img: '/static/img/goods/p'+(goods_id%10==0?10:goods_id%10)+'.jpg', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' };
+					let p = { goods_id: goods_id, img: '/static/img/goods/'+(goods_id%10==0?10:goods_id%10)+'.png', name: '商品名称商品名称商品名称商品名称商品名称', price: '￥168', slogan:'1235人付款' };
 					this.goodsList.push(p);
 				}
 			},

@@ -400,13 +400,13 @@ var _default = { data: function data() {return { showHeader: true, afterHeaderOp
       {
         title: '整点秒杀',
         ad: '整天秒杀专区',
-        img: '/static/img/s1.jpg',
+        img: '/static/img/s1.png',
         countdown: false },
 
       {
         title: '限时抢购',
         ad: '每天23点上线',
-        img: '/static/img/s2.jpg',
+        img: '/static/img/s2.png',
         countdown: tmpcountdown
         //countdown为目标时间，程序会获取当前时间倒数
       }];
