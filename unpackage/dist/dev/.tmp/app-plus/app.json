@@ -1,0 +1,102 @@
+{
+  "pages": [
+    "pages/tabBar/home/home",
+    "pages/tabBar/cart/cart",
+    "pages/tabBar/user/user",
+    "pages/goods/goods",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/login/resetpasswd",
+    "pages/order/confirmation",
+    "pages/user/setting/setting",
+    "pages/user/myQR/myQR",
+    "pages/msg/msg",
+    "pages/msg/chat/chat",
+    "pages/user/coupon/coupon",
+    "pages/user/keep/keep",
+    "pages/user/address/address",
+    "pages/user/address/edit/edit",
+    "pages/user/deposit/deposit",
+    "pages/pay/payment/payment",
+    "pages/pay/success/success",
+    "pages/goods/ratings/ratings"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "backgroundColorTop": "#ffffff",
+    "backgroundColorBottom": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#f06c7a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/home/home",
+        "iconPath": "static/img/tabBar/home.png",
+        "selectedIconPath": "static/img/tabBar/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/category/category",
+        "iconPath": "static/img/tabBar/category.png",
+        "selectedIconPath": "static/img/tabBar/category-on.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/tabBar/cart/cart",
+        "iconPath": "static/img/tabBar/cart.png",
+        "selectedIconPath": "static/img/tabBar/cart-on.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/tabBar/user/user",
+        "iconPath": "static/img/tabBar/user.png",
+        "selectedIconPath": "static/img/tabBar/user-on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvue": {
+    "pages": {
+      "pages/user/order_list/order_list.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarTitleText": "我的订单",
+          "navigationBarBackgroundColor": "#f8f8f8",
+          "backgroundColorTop": "#f3f3f3",
+          "backgroundColorBottom": "#ffffff"
+        }
+      },
+      "pages/goods/goods-list/goods-list.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": true,
+          "bounce": "none"
+        }
+      },
+      "pages/tabBar/category/category.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarTextStyle": "black",
+          "titleNView": false,
+          "bounce": "none"
+        }
+      }
+    }
+  },
+  "nvueCompiler": "weex",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "HM-mall",
+  "compilerVersion": "2.0.1",
+  "usingComponents": {}
+}

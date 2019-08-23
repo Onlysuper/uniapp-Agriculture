@@ -1,0 +1,94 @@
+
+$color1:#867f80;
+$color2:#5f5f5f;
+$color2:#38383a;
+// //背景颜色
+$back1:#ececec;
+// 分割线颜色
+$split-color1:#f9f9f9;
+.space-split{
+	height: 20upx;
+	width: 100%;
+}
+//圆角
+$but-radius:5upx;
+$window-top:90upx;
+$header-height:100upx;
+.split-border-attr{
+    background: $split-color1;
+    width:100%;
+}
+.light-text{
+    color:$uni-text-color-placeholder;
+}
+// 1像素底部按钮
+.split-bottom-border1{
+    border-bottom: 1px solid $split-color1;
+}
+// 分割条
+.split-border-sm{
+    height:10upx;
+    @extend .split-border-attr;
+}
+.split-border-base{
+    height:15upx;
+    @extend .split-border-attr;
+}
+.split-border-lg{
+    height:20upx;
+    @extend .split-border-attr;
+}
+// 底部按钮组
+.footer-place{
+    height: 99upx;
+}
+// app页面顶部留白
+.top-space{
+    height: 30upx;
+}
+// app页面顶部操作条留白
+.header-place{
+	height: $header-height;
+	width: 100%;
+}
+
+.full-button{
+    height: 88upx;
+    line-height: 88upx;
+	font-size: $uni-font-size-lg;
+    text-align: center;
+    color:#fff;
+    background: $uni-color-success;
+    border-radius: $but-radius;
+}
+.m-header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding:$uni-spacing-col-base $uni-spacing-row-sm;
+	align-items: center;
+	box-sizing: border-box;
+	.m-label{
+		font-size: $uni-font-size-lg;
+		color:$uni-text-color;
+	}
+	.m-detail{
+		font-size:$uni-font-size-base ;
+		color:$uni-text-color;
+	}
+}
+
+.page-footer {
+	position: fixed;
+	bottom: 0upx;
+	width: 100%;
+	height: 99upx;
+	border-top: solid 1upx #eee;
+	background-color: #fff;
+	z-index: 2;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    // padding: 0 $uni-spacing-row-sm;
+    box-sizing: border-box;
+}
